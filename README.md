@@ -20,3 +20,8 @@
 - Servidores que armazenam e gerenciam as partições dos tópicos no kafka
 - Constituem o cluster Kafka e são responsaveis por receber, armazenar e replicar os dados
 - Escabilidade horizontal e Replicação de dados
+
+## Topico
+- Canais de comunicação categorizados para dados no kafka
+- Produtores enviam mensagens para topicos, consumidas por consumidores e Tópicos podem ter multiplas partições para distribuição e paralelismo. 
+- Tópicos é divididos em partições
