@@ -30,3 +30,9 @@
 - Responsavel por enviar dados para o kafka
 - Envia mensagens para o topicos kafka de forma assincrona ou síncrona
 - Anteriormente não era possivel fazer ordenação
+
+## Consumidor
+- Aplicativos ou sistemas que recebem e processam os dados do kafka
+- Os consumidores se inscrevem nos topicos para receber mensagens e processá-las conforme necessário e Podem ser implementados em diferentes linguagens e poddem ser configurados para consumir mensagens de forma síncrona ou assíncrona.
+- Flexibilidade na configuração do comportamento de consumo, como controle de offset e commits automáticos e capacidade de dimensionamento para lidar com grandes volumes de mensagens
+- avisa o kafka que leu a mensagem
