@@ -15,3 +15,8 @@
 - Kafka cluster
 - Consumidores
 - Grupo de consumidores
+
+## Broker 
+- Servidores que armazenam e gerenciam as partições dos tópicos no kafka
+- Constituem o cluster Kafka e são responsaveis por receber, armazenar e replicar os dados
+- Escabilidade horizontal e Replicação de dados
