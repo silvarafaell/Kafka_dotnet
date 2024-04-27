@@ -42,3 +42,10 @@
 - Os consumidores são organizados em grupos para consumir dados de tópicos especificos e cada mensagem é processada por apenas um consumidor dentro do grupo, garantindo a distribuição equitativa da carga
 - Ideal para lidar com volumes significativos de mensagens
 
+## Zookeeper
+- Ferramenta de coordenação distribuida amplamente utilizada em sistemas distribuidos
+- Coordenação de Broker
+- Registro de metadados
+- Detecção de Falhas
+- Coordenação de consumidores
+- Sincronização de configuração
