@@ -36,3 +36,9 @@
 - Os consumidores se inscrevem nos topicos para receber mensagens e processá-las conforme necessário e Podem ser implementados em diferentes linguagens e poddem ser configurados para consumir mensagens de forma síncrona ou assíncrona.
 - Flexibilidade na configuração do comportamento de consumo, como controle de offset e commits automáticos e capacidade de dimensionamento para lidar com grandes volumes de mensagens
 - avisa o kafka que leu a mensagem
+
+## Grupo de consumidores
+- Conjuntos de consumidores que compartilham a carga de processamento dos dados no kafka
+- Os consumidores são organizados em grupos para consumir dados de tópicos especificos e cada mensagem é processada por apenas um consumidor dentro do grupo, garantindo a distribuição equitativa da carga
+- Ideal para lidar com volumes significativos de mensagens
+
