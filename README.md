@@ -25,3 +25,8 @@
 - Canais de comunicação categorizados para dados no kafka
 - Produtores enviam mensagens para topicos, consumidas por consumidores e Tópicos podem ter multiplas partições para distribuição e paralelismo. 
 - Tópicos é divididos em partições
+  
+## Produtor
+- Responsavel por enviar dados para o kafka
+- Envia mensagens para o topicos kafka de forma assincrona ou síncrona
+- Anteriormente não era possivel fazer ordenação
