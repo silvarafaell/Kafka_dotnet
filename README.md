@@ -55,5 +55,6 @@
 
 ## Kafdrop
 - depois executa o docker-compose, pode abrir o kafdrop http://localhost:9007/
+![Alt text](https://github.com/silvarafaell/Kafka_dotnet/blob/main/images/kafdrop.png?raw=true "Kafdrop")
 
   
