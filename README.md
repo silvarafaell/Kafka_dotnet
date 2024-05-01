@@ -51,5 +51,5 @@
 - Sincronização de configuração
 
 - Abrindo cmd no direitorio do arquivo docker compose 
- - docker-compose up -d (executa os containers)
+   - docker-compose up -d (executa os containers)
   
