@@ -50,6 +50,6 @@
 - Coordenação de consumidores
 - Sincronização de configuração
 
-- Abrindo cmd no direitorio do arquivo docker compose 
+## Abrindo cmd no direitorio do arquivo docker compose 
    - docker-compose up -d (executa os containers)
   
