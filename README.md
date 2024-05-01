@@ -52,4 +52,8 @@
 
 ## Abrindo cmd no direitorio do arquivo docker compose 
    - docker-compose up -d (executa os containers)
+
+## Kafdrop
+- depois executa o docker-compose, pode abrir o kafdrop http://localhost:9007/
+
   
