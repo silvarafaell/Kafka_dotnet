@@ -57,4 +57,19 @@
 - depois executa o docker-compose, pode abrir o kafdrop http://localhost:9007/
 ![Alt text](https://github.com/silvarafaell/Kafka_dotnet/blob/main/images/kafdrop.png?raw=true "Kafdrop")
 
+## Produzindo mensagens - Hands ON
+- comandos:
+  - docker exec -it kafka /bin/bash
+  - cd /
+  - ls
+  - cd bin
+  - ls
+  - ./kafka-topics --list --bootstrap-server localhost:9092    LISTA TOPICOS
+  - ./kafka-topics --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic tp-order     CRIAR O TOPICO
+  - ./kafka-console-consumer --bootstrap-server localhost:9092 --topic tp-order --from-beginning  CONSUMIR TOPICOS
+
+## Consumindo mensagens - Hands On
+-  pelo o Notifier(envia email para o consumidor)
+
+
   
